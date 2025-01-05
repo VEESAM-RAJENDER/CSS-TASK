@@ -1,0 +1,51 @@
+.head{
+    color: purple;
+}
+/* task-1*/
+.container .box>p{
+    padding: 20px;
+    background-color: blueviolet;
+}
+/* task-2*/
+.section .content>p{
+    margin: 15px;
+    background-color: aqua;
+}
+/* task-3*/
+.card p{
+    border: 2px solid red;
+    background-color: rgb(183, 108, 233);
+}
+/* task-4*/
+.navbar *{
+    background-color: lightblue;
+}
+/* task-5*/
+.header>h1 , .sub-header>p{
+    margin-top: 20px;
+    background-color: rgb(238, 238, 110);
+}  
+/* task-6*/
+.footer>span{
+    padding: 10px;
+    background-color: blue;
+}
+/* task-7*/
+.main-content .content>p{
+    border: 1px solid black;
+    background-color: brown;
+}
+/* task-8*/
+.nav li{
+    margin-right: 15px;
+    background-color: blueviolet;
+}
+/* task-9*/
+.gallery>div{
+    background-color: lightgray;
+}
+/* task-10*/
+.container span{
+    border-radius: 10px;
+    background-color: darkgreen;
+}
