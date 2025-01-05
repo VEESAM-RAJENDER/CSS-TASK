@@ -45,7 +45,7 @@
     background-color: lightgray;
 }
 /* task-10*/
-.container span{
+.container .footer>span{
     border-radius: 10px;
     background-color: darkgreen;
 }
