@@ -1,0 +1,58 @@
+*{
+   
+    margin: 1px;
+    justify-items: center;
+    
+}
+table{
+    
+    border: 30px solid black;
+    display: flex;
+    border-radius: 20px;
+    text-align: center; font-size: 60px; line-height: 1;
+   
+}
+.chess:nth-child(odd){
+    color: black;
+  
+}
+h1{
+    color: #640D5F;
+
+}
+td{
+    width: 55px;
+    height: 50px;
+
+   
+}
+.black-1 td:nth-child(odd){
+ background-color: rgb(54, 50, 50);
+
+}
+.black-2 td:nth-child(even){
+    background-color: rgb(54, 50, 50);
+}
+.emp1 td:nth-child(odd){
+    background-color: rgb(54, 50, 50);  
+}
+.emp2 td:nth-child(even){
+    background-color: rgb(54, 50, 50);  
+}
+.emp3 td:nth-child(odd){
+    background-color: rgb(54, 50, 50);  
+}
+.emp4 td:nth-child(even){
+    background-color: rgb(54, 50, 50);  
+}
+.white1 td:nth-child(odd){
+    background-color: rgb(54, 50, 50);
+   
+   }
+.white2 td:nth-child(even){
+       background-color: rgb(54, 50, 50);
+       
+   }
+
+  
+ 
