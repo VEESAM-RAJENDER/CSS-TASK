@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body{
+    display: flex;
+    left: 30%;
+    position: relative;
+    margin:20px;
+
+}
+.box0{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    width: 500px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 1px;
+}
+.box1{
+    background-color: #EB5A3C;
+}
+.box3{
+    background-color: #118B50;
+}
+.box2{
+    position: relative;
+}
+.circle{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    border: 3px solid #002379;
+    border-radius:50%;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.pole{
+    width: 25px;
+    height: 800px;
+    border: 1px solid black;
+    background-color: silver;
+    border-radius: 6px;
+}
+.line{
+    position:absolute;
+    display: block;
+    background: darkblue;
+}
+
+.line-1{
+    width:97%;
+    border: 1px solid #002379;
+    transform: rotate(15deg);
+    }
+.line-2{
+        width:87%;
+        border: 1px solid #002379;
+        transform: rotate(30deg);
+        }
+.line-3{
+            width:77%;
+            border: 1px solid #002379;
+            transform: rotate(45deg);
+            }
+.line-4{
+    width:69%;
+    border: 1px solid #002379;
+    transform: rotate(60deg);
+    }
+
+    .line-5{
+        width:63%;
+        border: 1px solid #002379;
+        transform: rotate(75deg);
+        }
+    .line-6{
+            width:60%;
+            border: 1px solid #002379;
+            transform: rotate(90deg);
+            }
+    .line-7{
+                width:64%;
+                border: 1px solid #002379;
+                transform: rotate(105deg);
+                }
+    .line-8{
+        width:69%;
+        border: 1px solid #002379;
+        transform: rotate(120deg);
+        }
+        .line-9{
+            width:77%;
+            border: 1px solid #002379;
+            transform: rotate(135deg);
+            }
+        .line-10{
+                width:87%;
+                border: 1px solid #002379;
+                transform: rotate(150deg);
+                }
+        .line-11{
+                    width:97%;
+                    border: 1px solid #002379;
+                    transform: rotate(165deg);
+                    }
+        .line-12{
+            width:100%;
+            border: 1px solid #002379;
+            transform: rotate(180deg);
+            }
+         
