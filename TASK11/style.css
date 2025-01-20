@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    color:#B771E5 ;
+
+}
+.box-px{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.parent-percent{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #4635B1;
+}
+.child-percent{
+    width: 50%;
+    border: 2px solid black;
+    background-color:#B771E5;
+}
+.rem-paragraph{
+    font-size: 2rem;
+}
+.parent-em{
+    font-size: 16px;
+    border: 2px solid black;
+    background-color: #C5BAFF;
+
+}
+.child-em{
+    font-size: 1.5em;
+}
+.box-vw{
+    width: 50vw;
+    border: 2px solid black;
+    background-color: #A594F9;
+}
+.box-vh{
+    border: 2px solid black;
+    height: 25vh;
+    background-color: #441752;
+}
+.square-vmin{
+    border: 2px solid black;
+    height: 20vmin;
+    width: 20vmin;
+    background-color: #8B5DFF;
+}
+.square-vmax{
+    border: 2px solid black;
+    height: 20vmax;
+    width: 20vmax;
+    background-color: #640D5F;
+}
+.parent-relative{
+    border: 2px solid black;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-color:#BF2EF0 ;
+}
+.child-absolute{
+    border: 2px solid black;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    background-color: #C8A1E0;
+}
+.parent-font{
+    height: 250px;
+    width: 250px;
+    font-size: 20px; 
+    border: 2px solid black;  
+    background-color: #F9E400;
+}
+.child-font{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    font-size: inherit;
+    background-color: #FFAF00;
+}
