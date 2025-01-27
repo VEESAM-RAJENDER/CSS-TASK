@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+  align-items: end;
+  /*transform: rotate(180deg);*/
+}
+.box{
+    width: 50px;
+    animation: loader 2s infinite;
+    
+}
+.box1{
+    height: 90px;
+    background-image: linear-gradient(purple,blue);
+    border-radius: 5px;
+    border: 1px solid black;
+    animation-delay: .10s;
+    animation-name: colors;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-direction: alternate;
+}
+.box2{
+    height: 112px;
+    background-image: linear-gradient(purple,blue);
+    border-radius: 5px;
+    border: 1px solid black;
+    animation-delay: .8s;
+    animation-name: colors1;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-direction: alternate;
+}
+.box3{
+    height: 130px;
+    background-image: linear-gradient(purple,skyblue);
+    border-radius: 5px;
+    border: 1px solid black;
+    animation-delay: .6s;
+    animation-name: colors2;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-direction: alternate;
+}
+.box4{
+    height: 120px;
+    background-image: linear-gradient(purple,blue);
+    border-radius: 5px;
+    border: 1px solid black;
+    animation-delay: .5s;
+    animation-name: colors3;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-direction: alternate;
+}
+.box5{
+    height: 100px;
+    background-image: linear-gradient(purple,blue);
+    border-radius: 5px;
+    border: 1px solid black;
+    animation-delay: .8s;
+    animation-name: colors4;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-direction: alternate;
+}
+.box6{
+    height: 80px;
+    background-image: linear-gradient(to bottom,purple,blue);
+    border-radius: 5px;
+    border: 1px solid black;
+    animation-delay: .10s;
+    animation-name: colors5;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-direction: alternate;
+}
+@keyframes colors{
+    0% {
+     height: 20px;
+ }
+     50%{
+         height: 80px;
+     }
+    
+     100%{
+         height: 130px;
+     }
+ }
+ @keyframes colors1{
+     0% {
+      height: 100px;
+  }
+  50%{
+     height:150px;
+ }
+      100%{
+          height: 200px;
+      }
+  }
+  @keyframes colors2{
+     0% {
+      height: 200px;
+  }
+  50%{
+     height:300px;
+ }
+  100%{
+          height: 350px;
+      }
+  }
+  @keyframes colors3{
+     0% {
+      height: 130px;
+  }
+  50%{
+     height: 200px;
+ }
+  100%{
+          height: 240px;
+      }
+  }
+  @keyframes colors4{
+     0% {
+      height: 80px;
+  }
+  50%{
+     height: 110px;
+ }
+  100%{
+          height: 150px;
+      }
+  }
+  @keyframes colors5{
+     0% {
+      height: 50px;
+  }
+  50%{
+     height: 70px;
+ }
+  100%}
+    .dot-container{
+       height: 200px;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:7px;
+       
+      }
+      .point {
+        height: 25px;
+        width: 25px;
+        border-radius:50% ;
+        animation:bounce 1.9s infinite ease-in-out;
+
+      }
+      .dot-container .point:nth-child(1) {
+        background-color:blue;
+        animation-delay: 0.6s;
+  
+      }
+      .dot-container .point:nth-child(2) {
+        background-color: red;
+        animation-delay: 0.8s;
+       
+      }
+      .dot-container .point:nth-child(3) {
+        background-color: yellow;
+        animation-delay: 0.10s; 
+      }
+      .dot-container .point:nth-child(4) {
+        background-color: green;
+        animation-delay: 0.12s;
+        
+      }
+      @keyframes bounce{
+        0%,100%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-15px);
+        }
+      }
