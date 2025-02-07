@@ -766,3 +766,326 @@ overflow: hidden;
     left:18%;
     top: 20%;
 }
+
+
+
+/* Base styles */
+
+/* Media Queries for smaller screen sizes */
+
+/* For Phones (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .main-container {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .container {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .last-box {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .head {
+        margin-top: 40px;
+    }
+
+    .carousel-item>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .organic, .fruit {
+        font-size: 1.8rem;
+    }
+
+    .bomma .car, .bomma .cross, .bomma .per, .bomma .phone {
+        width: 150px;
+        height: 150px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .item>img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .person-1, .person-2, .person-3, .person-4 {
+        height: 200px;
+        width: 140px;
+    }
+
+    .formm, .formm2, .formm3 {
+        font-size: 2.5rem;
+    }
+
+    .formm4, .formm5 {
+        font-size: 1rem;
+    }
+
+    .buy>input {
+        font-size: 1.8rem;
+        width: 140px;
+    }
+
+    .best {
+        font-size: 2.2rem;
+    }
+
+    .latin {
+        font-size: 1rem;
+    }
+
+    .word {
+        font-size: 1rem;
+    }
+}
+
+/* For Tablets (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .container {
+        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .last-box {
+        margin-top: 15px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .space>a {
+        font-size: 0.9rem;
+    }
+
+    .head {
+        margin-top: 50px;
+    }
+
+    .carousel-item>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .organic, .fruit {
+        font-size: 2rem;
+    }
+
+    .bomma .car, .bomma .cross, .bomma .per, .bomma .phone {
+        width: 180px;
+        height: 180px;
+    }
+
+    .main-image {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .item>img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .person-1, .person-2, .person-3, .person-4 {
+        height: 220px;
+        width: 150px;
+    }
+
+    .best {
+        font-size: 2.5rem;
+    }
+
+    .latin {
+        font-size: 1.2rem;
+    }
+}
+
+/* For Laptops (max-width: 1200px) */
+@media only screen and (max-width: 1200px) {
+    .main-container {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .container {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .last-box {
+        margin-top: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .head {
+        margin-top: 60px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .carousel-item>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .organic, .fruit {
+        font-size: 2.5rem;
+    }
+
+    .space>a {
+        font-size: 1rem;
+    }
+
+    .bomma, .imp, .impp {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .bomma .car, .bomma .cross, .bomma .per, .bomma .phone {
+        width: 200px;
+        height: 200px;
+    }
+
+    .main-image {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .item>img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .last-box {
+        margin-top: 20px;
+        width: 90%;
+        overflow-x: hidden;
+    }
+
+    .person-1, .person-2, .person-3, .person-4 {
+        height: 250px;
+        width: 180px;
+    }
+
+    .best {
+        font-size: 3rem;
+    }
+
+    .latin {
+        font-size: 1.5rem;
+    }
+}
+
+/* For Desktops (min-width: 1200px and larger) */
+@media only screen and (min-width: 1200px) {
+    .main-container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .container {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .last-box {
+        margin-top: 30px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .head {
+        margin-top: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .carousel-item>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .organic, .fruit {
+        font-size: 3rem;
+    }
+
+    .space>a {
+        font-size: 1.2rem;
+    }
+
+    .bomma, .imp, .impp {
+        gap: 15px;
+        flex-direction: row;
+    }
+
+    .bomma .car, .bomma .cross, .bomma .per, .bomma .phone {
+        width: 250px;
+        height: 250px;
+    }
+
+    .main-image {
+        flex-direction: row;
+        margin-top: 60px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .item>img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .person-1, .person-2, .person-3, .person-4 {
+        height: 300px;
+        width: 220px;
+    }
+
+    .best {
+        font-size: 4rem;
+    }
+
+    .latin {
+        font-size: 2rem;
+    }
+}
+
+
