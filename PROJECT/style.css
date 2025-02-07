@@ -77,6 +77,17 @@
     position: relative;
     width: 100%;
 }
+.carousel{
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    background-color: #FF9A00;
+}
+.carousel-item>img{
+    width: 480px;
+    height: 250px;
+   
+}
 .img :hover img{
     object-fit: cover;
     transition:transform 0.8s;
@@ -755,14 +766,3 @@ overflow: hidden;
     left:18%;
     top: 20%;
 }
-
-
-
-
-
-
-
-
-    
-
-
